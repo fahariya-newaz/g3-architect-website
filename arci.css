@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
+.google-sans-css> {
+  font-family: "Google Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+ 
+}
+
+/* sharad style/ */
+.display-flex{
+    display: flex;
+}
+/* dark 01 */
+.tax-gray-1{
+    color: #131313;
+}
+/* dark02 */
+.tax-gray2{
+    color: #424242;
+}
+/* dark 03 */
+.tax-gray-3{
+    color: #727272;
+}
+/* primary bg-color */
+.bg-color{
+   background-color: rgba(255, 144, 14, 0.1);
+}
+.primary-buttion{
+    background-color: #FF900E;
+    color: #FFFFFF;
+    padding: 20px 25px;
+    font-size: 1.25rem;
+    border-radius: 8px;
+  
+
+
+
+}
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+  main>section{
+    margin-top: 130px
+    ; 
+} 
+/* header style */
+
+/* naver style */
+.brand {
+    font-weight: bold;
+    font-size: 2.8rem;
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+
+}
+   
+.nav-items{
+    list-style: none;
+    margin-right: 30px;
+}
+.navber{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navber, .banner{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+/* banner */
+.banner-content{
+    max-width: 862px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+  
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 4rem;
+}
+.banner-description{
+    font-size: 1rem;
+
+}
+.banner-img{
+    width: 100%;
+}
+/* team and feature related style */
+
+.teams{
+    align-items: center;
+}
+.team-img-contenar{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+.feature-title{
+  
+   
+}
+
+.ouer-features{
+    margin-left: 130px;
+    max-width: 530px;
+   
+   
+   
+}
+.Features{
+    font-weight: bold;
+    font-size: 2.8rem;
+   color: #FF900E;
+}
+.list{
+   font-weight: 500px;
+   font-size: 2.8rem;
+}
+.our{
+    font-weight: bold;
+    font-size: 2.8rem;
+}
+/* madia qur */
+@media screen and (max-width:576px){
+    .navber, .nav-link,.teams {
+        flex-direction: column;
+    }
+    .team-img-contenar{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .ouer-features{
+        margin-left: 30px;
+    }
+    
+}
+/* medium size device */
+@media screen and (min-width:576px) and (max-width:992px){
+    .teams{
+        flex-direction: column;
+    }
+    .ouer-features{
+        margin-left: 60px auto;
+    }
+    
+}
