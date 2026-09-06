@@ -154,7 +154,20 @@ main{
    margin-bottom: 0px;
 }
 
+#Experience-badeg{
+    padding: 45px 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: -100px;
+    margin-top: -100px;
+}
+#Experience-year{
+    font-weight: bold;
+    font-size: 4rem;
+}
+.fea-architect img{width: 100%;
 
+}
     /* Some Facts */
     .facts-containar{
         display: grid;
@@ -214,15 +227,33 @@ main{
     filter: grayscale(100%);
 }
 
-/* love & enjoy style */
+/* copyright@2023 */
+.copy{
+    max-width: 1400px;
+    min-height: 100px;
+    background-color:rgba(255, 244, 231, 1);
+   margin: 120px auto 0;
+   border-radius: 15px;
+   
+    
+    
+
+}
+.ALL{
+ padding: 40px ;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
 
 
 
 /* madia qur */
 @media screen and (max-width:576px){
-    .navber, .nav-link,.teams {
+    .navber, .nav-link,.teams , .love-section-enjoy{
         flex-direction: column;
     }
+    /* .love-section-enjoy, */
     .team-img-contenar,
      .facts-containar,
      .soponsor-companis{
@@ -240,13 +271,17 @@ main{
         gap: 50px;
 
     }
+    #Experience-badeg{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
 
    
     
 }
 /* medium size device */
 @media screen and (min-width:576px) and (max-width:992px){
-    .teams{
+    .teams , .love-section-enjoy{
         flex-direction: column;
     }
     .ouer-features{
@@ -256,5 +291,9 @@ main{
         grid-template-columns: repeat(3,1fr);
         gap: 50px;
         justify-items: center;
+    }
+    #Experience-badeg{
+        margin-top: 20px;
+        margin-left: 20px;
     }
 }
